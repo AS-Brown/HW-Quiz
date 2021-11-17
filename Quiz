@@ -1,0 +1,29 @@
+Polymorphism & Composition Homework - Quiz
+
+Polymorphism
+1. What does the word 'polymorphism' mean? 
+2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+3. What can we use to implement polymorphism in Java?
+4. How many 'forms' can an object take when using polymorphism?
+5. Give an example of when you could use polymorphism.
+
+Composition and Aggregation
+6. What do we mean by 'composition' in reference to object-oriented programming?
+7. When would you use composition? Provide a simple example in Java.
+8. Give a difference between composition and aggregation?
+9. What is/are the advantage(s) of using composition/aggregation?
+10. When using composition, when an object is destroyed, what happens to all the objects it is composed of?
+11. When using aggregation, when an object is destroyed, what happens to all the objects it is composed of?
+
+
+1. Many shaped.
+2. Objects are able to take different forms - a bedroom will also be a room.
+3. Inheritance and Interfaces.
+4. As many as required.
+5. If you had different types of rooms, you could add them to an array list as Room objects which would not be possible if you had several different types like Bedroom or Bathroom.
+6. Composition describes the creation of an object using other objects, the new object is composed of the new parts.
+7. When creating a car object, it could be made up of an engine object, wheel object, etc.
+8. With aggregation, the child object can exist without a parent object, composition is a dependent relationship
+9. The advantage is that we can use the methods of an object without having to worry about inheritance.
+10. They are destroyed.
+11. They still exist.
